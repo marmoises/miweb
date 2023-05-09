@@ -1,5 +1,5 @@
 def calculadora(a:int,b:int,op:str)->int:
-    
+    print('Inicio de la Calculadora')
     def sumar()->int:
         return a+b
 
