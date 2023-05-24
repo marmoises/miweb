@@ -23,7 +23,7 @@ def calculadora(a:int,b:int,op:str)->int:
             return a%b
         except Exception as e:
             print(f'Error: {e}')
-
+    
     if op == 'sumar':
         return sumar
     elif op == 'restar':
