@@ -18,6 +18,12 @@ def calculadora(a:int,b:int,op:str)->int:
         except ZeroDivisionError as e:
             print(f'Error: {e}')
     
+    def division_entera()->int:
+        try:
+            return a//b
+        except ZeroDivisionError as e:
+            print(f'Error: {e}')
+    
     if op == 'sumar':
         return sumar
     elif op == 'restar':
@@ -28,6 +34,8 @@ def calculadora(a:int,b:int,op:str)->int:
         return division
     elif op == 'pot':
         return pot
+    elif op == 'division_entera':
+        return division_entera
 
 if __name__ == '__main__':
     def main():
@@ -37,5 +45,6 @@ if __name__ == '__main__':
         print(f'Resultado de la Multiplicacion: {calculadora(1,2,"mult")()}')
         print(f'Resultado de la Division: {calculadora(1,2,"division")()}')
         print(f'Resultado de la Potencia: {calculadora(2,2,"pot")()}')
+        print(f'Resultado de la Division Entera {calculadora(2,4,"division_entera")()}')
 
     main()
