@@ -1,1 +1,12 @@
-[{"nombre":"Lucia","apellido":"Gonzales","edad":12,"email":"lu@.com"}]
+[
+    {
+        "nombre":"Lucia",
+        "apellido":"Gonzales",
+        "edad":26,"email":"lu@.com"
+    },
+    {
+        "nombre":"Mariano",
+        "apellido":"Lopez",
+        "edad":23,"email":"mariano@.com"
+    }
+]
