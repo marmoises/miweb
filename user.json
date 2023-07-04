@@ -16,5 +16,11 @@
         "apellido":"Ruiz",
         "edad":22,
         "email":"vale@.com"
+    },
+    {
+        "nombre":"Paulina",
+        "apellido":"Perez",
+        "edad":25,
+        "email":"pau@.com"
     }
 ]
